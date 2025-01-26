@@ -55,7 +55,7 @@ export default function Projects() {
 
                             <img src={project.thumbnail}
                                 alt="project-thumbnail"
-                                className='md:w-2/5 rounded-lg object-cover h-auto'
+                                className='md:w-2/5 lg:w-2/5 rounded-lg object-cover h-auto'
                             />
 
                             <div className='flex flex-col py-5 px-2 rounded-lg '>
