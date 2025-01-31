@@ -64,7 +64,7 @@ export default function Navbar() {
                             }
                         </ul> */}
                         <a
-                            href="https://shorturl.at/YsmHn"
+                            href="https://drive.google.com/file/d/1tceNLGmJ6iW2M5QhwZxwvhH3xIR38r66/view?usp=sharing"
                             target="_blank"
                             type="button"
                             className="text-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 
