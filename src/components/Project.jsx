@@ -1,5 +1,6 @@
 import project1 from '../assets/modernMobiles2.png'
 import project2 from '../assets/Workasana.png'
+import project3 from '../assets/MyCRM.png'
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
 import { FaGithub } from "react-icons/fa";
 
@@ -34,7 +35,22 @@ const projectInfo = [
         Express and Node.js handle backend logic. This full-stack solution offers features 
         like task prioritization, deadlines, and real-time updates, helping individuals or 
         teams stay organized and productive.`
-    }
+    },
+    {
+        id: 3,
+        name: "MyCRM",
+        website: "https://my-crm-client.vercel.app/",
+        sourceCode: "https://github.com/Raja28/MyCRM",
+        thumbnail: project3,
+        tech: {
+            frontend: ['React', 'Redux Toolkit', 'Axios', 'React-router'],
+            backend: ['Express', 'Node', 'MongoDB']
+        },
+        description: `Designed and developed MyCRM, a full-stack CRM application using the MERN stack 
+        (MongoDB, Express.js, React, Node.js) to manage the complete lead lifecycle.
+        Implemented key CRM features including sales agent assignment, lead stage tracking, 
+        and collaborative commenting for enhanced sales team coordination.`
+    },
 ]
 export default function Projects() {
 
@@ -50,7 +66,7 @@ export default function Projects() {
                 {
                     projectInfo.map(project => (
                         <div key={project?.id}
-                            className='max-w-8/12 border flex flex-wrap md:flex-nowrap gap-3 rounded-lg mt-8 bg-pure-greys-900'
+                            className='max-w-8/12 border flex flex-wrap md:flex-nowrap gap-3 rounded-lg mt-8 bg-pure-greys-900 '
                         >
 
                             <img src={project.thumbnail}
