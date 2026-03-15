@@ -2,9 +2,7 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
-import { CiMail } from "react-icons/ci";
 import { MdMailOutline } from "react-icons/md";
-import { HiOutlineHeart } from "react-icons/hi";
 
 export default function Footer() {
 
