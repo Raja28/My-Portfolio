@@ -145,7 +145,7 @@ export default function Navbar() {
         {/* Right Side */}
         <div className="flex items-center">
           <a
-            href="https://drive.google.com/file/d/1Ka-WtMnk7wkSRoKB3mEKGr52XTjxxZ-0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1D2oa26ukSznH-W0Wf0v37E060rizKbWu/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="
